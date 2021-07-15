@@ -1,4 +1,4 @@
-package calc
+package noflake
 
 import (
 	"math/rand"
@@ -16,7 +16,7 @@ func TestAdd(t *testing.T) {
 func TestFlake(t *testing.T) {
 	rand.Seed(time.Now().UnixNano())
 	j := rand.Int31n(10)
-	if j > 5 {
+	if j > 0 {
 		t.Errorf("j = %d; want <= 5", j)
 	}
 }
