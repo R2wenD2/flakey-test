@@ -1,0 +1,6 @@
+=== RUN   TestAdd
+--- PASS: TestAdd (0.00s)
+=== RUN   TestFlake
+--- PASS: TestFlake (0.00s)
+PASS
+ok  	github.com/R2wenD2/flakey-test/calc	(cached)

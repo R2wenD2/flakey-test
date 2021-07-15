@@ -1,0 +1,14 @@
+{"Time":"2021-07-09T15:27:02.720046787Z","Action":"run","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestAdd"}
+{"Time":"2021-07-09T15:27:02.720221243Z","Action":"output","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestAdd","Output":"=== RUN   TestAdd\n"}
+{"Time":"2021-07-09T15:27:02.72057675Z","Action":"output","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestAdd","Output":"--- PASS: TestAdd (0.00s)\n"}
+{"Time":"2021-07-09T15:27:02.720664273Z","Action":"pass","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestAdd","Elapsed":0}
+{"Time":"2021-07-09T15:27:02.720677501Z","Action":"run","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestFlake"}
+{"Time":"2021-07-09T15:27:02.720683536Z","Action":"output","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestFlake","Output":"=== RUN   TestFlake\n"}
+{"Time":"2021-07-09T15:27:02.720896561Z","Action":"output","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestFlake","Output":"--- PASS: TestFlake (0.00s)\n"}
+{"Time":"2021-07-09T15:27:02.721048101Z","Action":"pass","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestFlake","Elapsed":0}
+{"Time":"2021-07-09T15:27:02.721059633Z","Action":"output","Package":"github.com/R2wenD2/flakey-test/calc","Output":"PASS\n"}
+{"Time":"2021-07-09T15:27:02.721048101Z","Action":"pass","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestFlake","Elapsed":0}
+{"Time":"2021-07-09T15:27:02.721048101Z","Action":"fail","Package":"github.com/R2wenD2/flakey-test/calc","Test":"TestFlake","Elapsed":0}
+{"Time":"2021-07-09T15:27:02.721211024Z","Action":"output","Package":"github.com/R2wenD2/flakey-test/calc","Output":"coverage: 100.0% of statements\n"}
+{"Time":"2021-07-09T15:27:02.734187054Z","Action":"output","Package":"github.com/R2wenD2/flakey-test/calc","Output":"ok  \tgithub.com/R2wenD2/flakey-test/calc\t0.035s\tcoverage: 100.0% of statements\n"}
+{"Time":"2021-07-09T15:27:02.734763213Z","Action":"pass","Package":"github.com/R2wenD2/flakey-test/calc","Elapsed":0.036}
